@@ -155,7 +155,7 @@
 .demo-perspective-photo .example:nth-child(15) {
   -webkit-transform: rotateY(168deg) translateZ(98px);
   transform: rotateY(168deg) translateZ(98px);
-  background-image: url("img/color肺／支氣管.png");
+  background-image: url("img/color肺_支氣管.png");
   background-size: 100% 100%;
 }
 

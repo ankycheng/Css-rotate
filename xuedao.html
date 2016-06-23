@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h1 class="name"></h1>
+      <br>
+      <h2 class="attr"></h2>
+      <br>
+      <h2 class="function"></h2>
+      <br>
+      <h2 class="cure"></h2>
+      <img src="" alt="" height="500" width="350">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		var dataName = window.location.search;
+		dataName = dataName.slice(1);
+		var xobj = new XMLHttpRequest();
+  		var url = "data.json";
+
+  		xobj.overrideMimeType("application/json");
+  		xobj.open('GET', url, true);
+  		xobj.onreadystatechange = function () {
+    	if (xobj.readyState == 4 && xobj.status == "200") {
+      		var data= JSON.parse(xobj.responseText);
+      		feed(data);
+    	}
+  		};
+    	xobj.send(null);
+
+    	function feed(data) {
+    		$("h1.name").text(data[dataName].name);
+            $("h2.attr").text("解剖："+ data[dataName].attr);
+    		$("h2.function").text("功用："+data[dataName].function);
+            $("h2.cure").text("主治："+data[dataName].cure);
+            $("img").attr("src",data[dataName].img_src);
+    	}
+	</script>
+</body>
+</html>
