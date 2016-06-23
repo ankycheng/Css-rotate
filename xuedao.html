@@ -14,6 +14,25 @@
       <h2 class="cure"></h2>
       <img src="" alt="" height="500" width="350">
 
+      <div>
+      R <svg width="400" height="50">
+      <rect id="r" width="100" height="20" style="fill:rgb(255,0,0);stroke-width:0.5;stroke:rgb(0,0,0)">
+      </svg>
+
+      <br>
+
+      G <svg width="400" height="50">
+      <rect id="g" width="100" height="20" style="fill:rgb(0,255,0);stroke-width:0.5;stroke:rgb(0,0,0)">
+      </svg>
+
+      <br>
+
+      B <svg width="400" height="50">
+      <rect id="b" width="100" height="20" style="fill:rgb(0,0,255);stroke-width:0.5;stroke:rgb(0,0,0)">
+      </svg>
+      </div>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script type="text/javascript">
 		var dataName = window.location.search;
@@ -37,6 +56,9 @@
     		$("h2.function").text("功用："+data[dataName].function);
             $("h2.cure").text("主治："+data[dataName].cure);
             $("img").attr("src",data[dataName].img_src);
+            $("#r").attr("width",data[dataName].r);
+            $("#g").attr("width",data[dataName].g);
+            $("#b").attr("width",data[dataName].b);
     	}
 	</script>
 </body>
