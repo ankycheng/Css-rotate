@@ -1,0 +1,187 @@
+.container {
+  width: 100%;
+}
+
+.demo-perspective-photo {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 10px;
+  background-color: #fff;
+  zoom: 3;
+}
+
+.demo-perspective-photo #stage {
+  width: 100%;
+  height: 200px;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  perspective: 800px;
+  -webkit-transition: top 0.5s;
+  -moz-transition: top 0.5s;
+  transition: top 0.5s;
+  position: relative;
+}
+
+.demo-perspective-photo #container {
+  position: absolute;
+  width: 36px;
+  height: 51px;
+  left: 50%;
+  top: 50%;
+  margin-left: -32px;
+  margin-top: -18px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  transition: transform 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: photoRotate 10s linear infinite 1s;
+  animation: photoRotate 10s linear infinite 1s;
+}
+
+.demo-perspective-photo .example {
+  width: 36px;
+  height: 51px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  -moz-transition: opacity 1s, -moz-transform 1s;
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+  bottom: 0;
+}
+
+.demo-perspective-photo .example:nth-child(1) {
+  -webkit-transform: rotateY(0deg) translateZ(98px);
+  transform: rotateY(0deg) translateZ(98px);
+  background-image: url("img/color三叉神經.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(2) {
+  -webkit-transform: rotateY(36deg) translateZ(98px);
+  transform: rotateY(36deg) translateZ(98px);
+  background-image: url("img/color大腦.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(3) {
+  -webkit-transform: rotateY(72deg) translateZ(98px);
+  transform: rotateY(72deg) translateZ(98px);
+  background-image: url("img/color小腸.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(4) {
+  -webkit-transform: rotateY(108deg) translateZ(98px);
+  transform: rotateY(108deg) translateZ(98px);
+  background-image: url("img/color升結腸.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(5) {
+  -webkit-transform: rotateY(144deg) translateZ(98px);
+  transform: rotateY(144deg) translateZ(98px);
+  background-image: url("img/color心臟.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(6) {
+  -webkit-transform: rotateY(180deg) translateZ(98px);
+  transform: rotateY(180deg) translateZ(98px);
+  background-image: url("img/color生殖腺.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(7) {
+  -webkit-transform: rotateY(216deg) translateZ(98px);
+  transform: rotateY(216deg) translateZ(98px);
+  background-image: url("img/color甲狀腺.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(8) {
+  -webkit-transform: rotateY(252deg) translateZ(98px);
+  transform: rotateY(252deg) translateZ(98px);
+  background-image: url("img/color耳朵.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(9) {
+  -webkit-transform: rotateY(288deg) translateZ(98px);
+  transform: rotateY(288deg) translateZ(98px);
+  background-image: url("img/color肛門.png");
+  background-size: 100% 100%;
+}
+
+.demo-perspective-photo .example:nth-child(10) {
+  -webkit-transform: rotateY(324deg) translateZ(98px);
+  transform: rotateY(324deg) translateZ(98px);
+  background-image: url("img/color肝臟.png");
+  background-size: 100% 100%;
+}
+
+@-webkit-keyframes photoRotate {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  16.7% {
+    -webkit-transform: rotateY(60deg);
+    transform: rotateY(60deg);
+  }
+  33.3% {
+    -webkit-transform: rotateY(120deg);
+    transform: rotateY(120deg);
+  }
+  50% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  66.7% {
+    -webkit-transform: rotateY(240deg);
+    transform: rotateY(240deg);
+  }
+  83.3% {
+    -webkit-transform: rotateY(300deg);
+    transform: rotateY(300deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes photoRotate {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  16.7% {
+    -webkit-transform: rotateY(60deg);
+    transform: rotateY(60deg);
+  }
+  33.3% {
+    -webkit-transform: rotateY(120deg);
+    transform: rotateY(120deg);
+  }
+  50% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  66.7% {
+    -webkit-transform: rotateY(240deg);
+    transform: rotateY(240deg);
+  }
+  83.3% {
+    -webkit-transform: rotateY(300deg);
+    transform: rotateY(300deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
