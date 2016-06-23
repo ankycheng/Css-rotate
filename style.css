@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.demo-perspective-photo {
+.rotate-color {
   position: absolute;
   width: 100%;
   height: 200px;
@@ -11,7 +11,7 @@
   zoom: 4;
 }
 
-.demo-perspective-photo #stage {
+.rotate-color #stage {
   width: 100%;
   height: 200px;
   -webkit-perspective: 800px;
@@ -23,7 +23,7 @@
   position: relative;
 }
 
-.demo-perspective-photo #container {
+.rotate-color #container {
   position: absolute;
   width: 12px;
   height: 17px;
@@ -42,7 +42,7 @@
   animation: photoRotate 30s linear infinite 1s;
 }
 
-.demo-perspective-photo .color {
+.rotate-color .color {
   width: 12px;
   height: 17px;
   overflow: hidden;
@@ -54,217 +54,217 @@
   bottom: 0;
 }
 
-.demo-perspective-photo .color:nth-child(1) {
+.rotate-color .color:nth-child(1) {
   -webkit-transform: rotateY(0deg) translateZ(98px);
   transform: rotateY(0deg) translateZ(98px);
   background-image: url("img/color三叉神經.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(2) {
+.rotate-color .color:nth-child(2) {
   -webkit-transform: rotateY(12deg) translateZ(98px);
   transform: rotateY(12deg) translateZ(98px);
   background-image: url("img/color大腦.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(3) {
+.rotate-color .color:nth-child(3) {
   -webkit-transform: rotateY(24deg) translateZ(98px);
   transform: rotateY(24deg) translateZ(98px);
   background-image: url("img/color小腸.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(4) {
+.rotate-color .color:nth-child(4) {
   -webkit-transform: rotateY(36deg) translateZ(98px);
   transform: rotateY(36deg) translateZ(98px);
   background-image: url("img/color升結腸.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(5) {
+.rotate-color .color:nth-child(5) {
   -webkit-transform: rotateY(48deg) translateZ(98px);
   transform: rotateY(48deg) translateZ(98px);
   background-image: url("img/color心臟.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(6) {
+.rotate-color .color:nth-child(6) {
   -webkit-transform: rotateY(60deg) translateZ(98px);
   transform: rotateY(60deg) translateZ(98px);
   background-image: url("img/color生殖腺.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(7) {
+.rotate-color .color:nth-child(7) {
   -webkit-transform: rotateY(72deg) translateZ(98px);
   transform: rotateY(72deg) translateZ(98px);
   background-image: url("img/color甲狀腺.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(8) {
+.rotate-color .color:nth-child(8) {
   -webkit-transform: rotateY(84deg) translateZ(98px);
   transform: rotateY(84deg) translateZ(98px);
   background-image: url("img/color耳朵.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(9) {
+.rotate-color .color:nth-child(9) {
   -webkit-transform: rotateY(96deg) translateZ(98px);
   transform: rotateY(96deg) translateZ(98px);
   background-image: url("img/color肛門.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(10) {
+.rotate-color .color:nth-child(10) {
   -webkit-transform: rotateY(108deg) translateZ(98px);
   transform: rotateY(108deg) translateZ(98px);
   background-image: url("img/color膽囊.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(11) {
+.rotate-color .color:nth-child(11) {
   -webkit-transform: rotateY(120deg) translateZ(98px);
   transform: rotateY(120deg) translateZ(98px);
   background-image: url("img/color肝臟.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(12) {
+.rotate-color .color:nth-child(12) {
   -webkit-transform: rotateY(132deg) translateZ(98px);
   transform: rotateY(132deg) translateZ(98px);
   background-image: url("img/color額竇.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(13) {
+.rotate-color .color:nth-child(13) {
   -webkit-transform: rotateY(144deg) translateZ(98px);
   transform: rotateY(144deg) translateZ(98px);
   background-image: url("img/color盲腸.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(14) {
+.rotate-color .color:nth-child(14) {
   -webkit-transform: rotateY(156deg) translateZ(98px);
   transform: rotateY(156deg) translateZ(98px);
   background-image: url("img/color直腸.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(15) {
+.rotate-color .color:nth-child(15) {
   -webkit-transform: rotateY(168deg) translateZ(98px);
   transform: rotateY(168deg) translateZ(98px);
   background-image: url("img/color肺_支氣管.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(16) {
+.rotate-color .color:nth-child(16) {
   -webkit-transform: rotateY(180deg) translateZ(98px);
   transform: rotateY(180deg) translateZ(98px);
   background-image: url("img/color胃.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(17) {
+.rotate-color .color:nth-child(17) {
   -webkit-transform: rotateY(192deg) translateZ(98px);
   transform: rotateY(192deg) translateZ(98px);
   background-image: url("img/color降結腸.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(18) {
+.rotate-color .color:nth-child(18) {
   -webkit-transform: rotateY(204deg) translateZ(98px);
   transform: rotateY(204deg) translateZ(98px);
   background-image: url("img/color胰腺.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(19) {
+.rotate-color .color:nth-child(19) {
   -webkit-transform: rotateY(216deg) translateZ(98px);
   transform: rotateY(216deg) translateZ(98px);
   background-image: url("img/color斜方肌.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(20) {
+.rotate-color .color:nth-child(20) {
   -webkit-transform: rotateY(228deg) translateZ(98px);
   transform: rotateY(228deg) translateZ(98px);
   background-image: url("img/color眼睛.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(21) {
+.rotate-color .color:nth-child(21) {
   -webkit-transform: rotateY(240deg) translateZ(98px);
   transform: rotateY(240deg) translateZ(98px);
   background-image: url("img/color脾臟.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(22) {
+.rotate-color .color:nth-child(22) {
   -webkit-transform: rotateY(252deg) translateZ(98px);
   transform: rotateY(252deg) translateZ(98px);
   background-image: url("img/color腎上腺.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(23) {
+.rotate-color .color:nth-child(23) {
   -webkit-transform: rotateY(264deg) translateZ(98px);
   transform: rotateY(264deg) translateZ(98px);
   background-image: url("img/color腎臟.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(24) {
+.rotate-color .color:nth-child(24) {
   -webkit-transform: rotateY(276deg) translateZ(98px);
   transform: rotateY(276deg) translateZ(98px);
   background-image: url("img/color腦垂體.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(25) {
+.rotate-color .color:nth-child(25) {
   -webkit-transform: rotateY(288deg) translateZ(98px);
   transform: rotateY(288deg) translateZ(98px);
   background-image: url("img/color腦幹小腦.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(26) {
+.rotate-color .color:nth-child(26) {
   -webkit-transform: rotateY(300deg) translateZ(98px);
   transform: rotateY(300deg) translateZ(98px);
   background-image: url("img/color膀胱.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(27) {
+.rotate-color .color:nth-child(27) {
   -webkit-transform: rotateY(312deg) translateZ(98px);
   transform: rotateY(312deg) translateZ(98px);
   background-image: url("img/color鼻子.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(28) {
+.rotate-color .color:nth-child(28) {
   -webkit-transform: rotateY(324deg) translateZ(98px);
   transform: rotateY(324deg) translateZ(98px);
   background-image: url("img/color橫結腸.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(29) {
+.rotate-color .color:nth-child(29) {
   -webkit-transform: rotateY(336deg) translateZ(98px);
   transform: rotateY(336deg) translateZ(98px);
   background-image: url("img/color輸尿管.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(30) {
+.rotate-color .color:nth-child(30) {
   -webkit-transform: rotateY(348deg) translateZ(98px);
   transform: rotateY(348deg) translateZ(98px);
   background-image: url("img/color頸.png");
   background-size: 100% 100%;
 }
 
-.demo-perspective-photo .color:nth-child(31) {
+.rotate-color .color:nth-child(31) {
   -webkit-transform: rotateY(360deg) translateZ(98px);
   transform: rotateY(360deg) translateZ(98px);
   background-image: url("img/color頸椎.png");
